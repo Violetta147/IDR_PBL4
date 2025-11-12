@@ -7,3 +7,33 @@ app/services/cai_project/.env
 
 # AI model / data
 app/services/cai_project/cai/*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test outputs
+tests/results/
+*.log
+
+# PCAP files (large)
+*.pcap
+*.pcapng
+
+# Temporary files
+/tmp/
+*.tmp
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
